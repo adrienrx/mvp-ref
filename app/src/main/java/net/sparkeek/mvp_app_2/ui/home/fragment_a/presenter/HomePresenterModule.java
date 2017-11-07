@@ -1,4 +1,4 @@
-package net.sparkeek.mvp_app_2.ui.home.fragment.presenter;
+package net.sparkeek.mvp_app_2.ui.home.fragment_a.presenter;
 
 import net.sparkeek.mvp_app_2.inject.PerFragment;
 

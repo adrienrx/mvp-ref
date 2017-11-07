@@ -1,9 +1,9 @@
-package net.sparkeek.mvp_app_2.ui.home.fragment.view;
+package net.sparkeek.mvp_app_2.ui.home.fragment_a.view;
 
 import android.app.Fragment;
 
 import net.sparkeek.mvp_app_2.inject.PerFragment;
-import net.sparkeek.mvp_app_2.ui.home.fragment.presenter.HomePresenterModule;
+import net.sparkeek.mvp_app_2.ui.home.fragment_a.presenter.HomePresenterModule;
 import net.sparkeek.mvp_app_2.ui.view.BaseFragmentModule;
 
 import javax.inject.Named;

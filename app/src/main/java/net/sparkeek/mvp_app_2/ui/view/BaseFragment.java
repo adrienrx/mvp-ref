@@ -72,6 +72,11 @@ public abstract class BaseFragment extends Fragment implements HasFragmentInject
     }
 
     @Override
+    public void onCreate(@android.support.annotation.Nullable final Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+    }
+
+    @Override
     public void onViewStateRestored(Bundle savedInstanceState) {
         super.onViewStateRestored(savedInstanceState);
         /*

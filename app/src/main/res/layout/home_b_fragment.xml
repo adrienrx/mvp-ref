@@ -6,10 +6,10 @@
               android:orientation="vertical">
 
     <TextView
-        android:id="@+id/Exemple1Fragment_TextView_helloWorld"
+        android:id="@+id/Exemple2Fragment_TextView_helloWorld"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Loading..."
+        android:text="Loading... Fragment B"
         android:textStyle="bold" />
 
 </LinearLayout>

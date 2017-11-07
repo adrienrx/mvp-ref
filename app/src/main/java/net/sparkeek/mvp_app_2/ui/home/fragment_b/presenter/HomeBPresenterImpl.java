@@ -1,18 +1,18 @@
-package net.sparkeek.mvp_app_2.ui.home.fragment.presenter;
+package net.sparkeek.mvp_app_2.ui.home.fragment_b.presenter;
 
 import net.sparkeek.mvp_app_2.inject.PerFragment;
-import net.sparkeek.mvp_app_2.ui.home.fragment.view.HomeView;
+import net.sparkeek.mvp_app_2.ui.home.fragment_b.view.HomeBView;
 import net.sparkeek.mvp_app_2.ui.presenter.BasePresenter;
 
 import javax.inject.Inject;
 
 @PerFragment
-public class HomePresenterImpl extends BasePresenter<HomeView> implements HomePresenter {
+public class HomeBPresenterImpl extends BasePresenter<HomeBView> implements HomeBPresenter {
 
-    private final String messageToShow = "blabla";
+    private final String messageToShow = "Fragment B";
 
     @Inject
-    HomePresenterImpl(final HomeView view) {
+    HomeBPresenterImpl(final HomeBView view) {
         super(view);
     }
 

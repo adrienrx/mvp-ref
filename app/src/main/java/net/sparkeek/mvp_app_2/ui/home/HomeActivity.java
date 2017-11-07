@@ -4,7 +4,8 @@ import android.os.Bundle;
 
 import net.sparkeek.mvp_app_2.R;
 import net.sparkeek.mvp_app_2.ui.BaseActivity;
-import net.sparkeek.mvp_app_2.ui.home.fragment.view.HomeFragment;
+import net.sparkeek.mvp_app_2.ui.home.fragment_a.view.HomeFragment;
+import net.sparkeek.mvp_app_2.ui.home.fragment_b.view.HomeBFragment;
 
 public final class HomeActivity extends BaseActivity {
     @Override
@@ -13,7 +14,8 @@ public final class HomeActivity extends BaseActivity {
         setContentView(R.layout.homeactivity);
 
         if (savedInstanceState == null) {
-            addFragment(R.id.fragment_container, new HomeFragment());
+            addFragment(R.id.fragment_a_container, new HomeFragment());
+            addFragment(R.id.fragment_b_container, new HomeBFragment());
         }
     }
 }
